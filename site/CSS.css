@@ -1,0 +1,142 @@
+body
+{
+	background-image: url(images/bg.png)
+}
+
+
+
+
+
+
+#debut
+{
+	background-color: #1B1A1F;
+	
+	
+	
+}
+
+
+#body
+{
+	
+	margin-right: 7%;
+	margin-left: 7%;
+	background-color:grey;
+	border-radius: 10px;
+	
+	
+
+}
+
+
+h1
+{
+	text-align: center;
+	font-size: 5em;
+	font-style: underline;
+	margin: 2%;
+	color: white ;
+	
+}
+
+
+h2
+{
+	text-decoration: underline;
+	margin : 2% ;
+	font-size: 2.5em;
+	text-align: left;
+}
+
+
+h3
+{
+	text-align: center;
+	font-size: 3em;
+	color: white;
+	text-decoration: underline;
+	
+}
+
+ p
+{
+	text-align:justify;
+	font-size: 1.5em;
+	text-indent:2em;
+	margin : 2% ;
+}
+
+
+li
+{
+	font-size: 1.5em;	
+}
+
+
+.float
+{
+	float: left;
+}
+.stop
+{
+	clear: both;
+}
+
+.list
+{
+	text-align: justify;
+	font-size: 0.7em;
+}
+
+
+
+                                /* la barre de navigation*/
+#nav {
+		margin:0;
+		padding:auto;
+		background:#1B1A1F repeat-x;
+		width:100%;
+		float:left;
+		border:1px solid #000000;
+		border-width:1px 0;
+		position : fixed;
+		top: 0px;
+		font-size: 1vw;
+		
+	}
+	#nav li {
+		display:inline;
+		padding:auto;
+		margin:0;
+		
+
+	}
+	#nav a:link,
+	#nav a:visited {
+		color:#000;
+		background:#d6cecc;
+		padding:20px 40px 4px 10px;
+		float:left;
+		width:auto;
+		border-right:1px solid #42432d;
+		text-decoration:none;
+		font:bold 1em/1em Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		
+	}
+	#nav a:hover {
+		color:fff;
+		background:grey;
+	}
+	#nav li:first-child a {
+		border-left:1px solid #42432d;
+	}        				/*fin de barre de navigation*/
+
+
+     
+footer
+{
+	text-align: right ;	
+}
+          
